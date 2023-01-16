@@ -1,5 +1,19 @@
 apiVersion: v1
 entries:
+  app-template:
+  - apiVersion: v2
+    created: "2023-01-16T15:07:55.8019903+01:00"
+    description: A common powered chart template. This can be useful for small projects
+      that don't have their own chart.
+    digest: dd9bd2ca8d830a5ad5e749aae990e4cec97fa0282fd6f22efb804b63eb58a7e1
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: andreas.murk@fhgr.ch
+      name: Andreas Murk
+    name: app-template
+    urls:
+    - https://github.com/fhgr/common-charts/releases/download/app-template-1.0.1/app-template-1.0.1.tgz
+    version: 1.0.1
   common:
   - apiVersion: v2
     created: "2023-01-16T15:04:28.998608056+01:00"
