@@ -64,7 +64,6 @@ Volumes included by the controller.
     user: {{ required "user not set" $persistence.user }}
     secretRef:
       name: {{ required "secretName not set" $persistence.secretName }}
-    path: {{ required "path not set" $persistence.path }}
   {{- else if eq $persistence.type "custom" }}
     {{- toYaml $persistence.volumeSpec | nindent 2 }}
   {{- else }}
