@@ -8,7 +8,7 @@ kubeVersion: ">=1.22.0-0"
 keywords:
   - common
   - library
-home: https://github.com/fh-gr/common-charts/tree/main/charts/library/common
+home: https://github.com/fhgr/common-charts/tree/main/charts/library/common
 maintainers:
   - name: Andreas M
     email: andreas.murk@fhgr.ch
