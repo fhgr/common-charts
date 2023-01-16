@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-Make sure that the [`bjws-helm-charts` HelmRepository](helmrepository.yaml) is added to your cluster.
+Make sure that the [`fhgr-common-charts` HelmRepository](helmrepository.yaml) is added to your cluster.
 
 ### Deployment
 

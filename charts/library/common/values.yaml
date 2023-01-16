@@ -342,7 +342,7 @@ serviceMonitor:
     selector: {}
 
     # -- Configures the target Service for the serviceMonitor. Helm templates can be used.
-    serviceName: '{{ include "bjw-s.common.lib.chart.names.fullname" $ }}'
+    serviceName: '{{ include "fhgr.common.lib.chart.names.fullname" $ }}'
 
     # -- Configures the endpoints for the serviceMonitor.
     # @default -- See values.yaml
@@ -402,7 +402,7 @@ ingress:
 
 # -- Configure persistence for the chart here.
 # Additional items can be added by adding a dictionary key similar to the 'config' key.
-# [[ref]](https://bjw-s.github.io/helm-charts/docs/common-library/common-library-storage)
+# [[ref]](https://fhgr.github.io/common-charts/docs/common-library/common-library-storage)
 # @default -- See below
 persistence:
   # -- Default persistence for configuration files.
