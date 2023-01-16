@@ -1,0 +1,13 @@
+---
+apiVersion: v2
+description: A common powered chart template. This can be useful for small projects that don't have their own chart.
+name: app-template
+version: 1.0.1
+kubeVersion: ">=1.22.0-0"
+maintainers:
+  - name: Andreas Murk
+    email: andreas.murk@fhgr.ch
+dependencies:
+  - name: common
+    repository: https://fh-gr.github.io/common-charts
+    version: 1.0.1
