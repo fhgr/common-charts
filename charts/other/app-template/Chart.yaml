@@ -9,5 +9,5 @@ maintainers:
     email: andreas.murk@fhgr.ch
 dependencies:
   - name: common
-    repository: https://fh-gr.github.io/common-charts
+    repository: https://fhgr.github.io/common-charts
     version: 1.0.1
